@@ -44,7 +44,8 @@
 |  2	   | 0	  | 0	  |0	|   0	   |  0  |
 |  3	   | 0	  | 0	  |0	|   0	   |  0  |
 |  4	   | 0	  | 0	  |0	|   1	   |  0  |
-В процессе выполнения задания разрешается пользоваться библиотеками numpy и pandas.
+
+<br>В процессе выполнения задания разрешается пользоваться библиотеками numpy и pandas.
 > Решение: [task2.py](company_01/task2.py)
 ### Задание №3. 
 > pandas, sklearn
@@ -56,8 +57,8 @@
 Обучить множество multiclass/binary classification моделей;
 Что-то еще, что придет в голову.
 
-Датасет: https://archive.ics.uci.edu/ml/machine-learning-databases/00373/drug_consumption.data
-Описание датасета : https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29
+<br>Датасет: https://archive.ics.uci.edu/ml/machine-learning-databases/00373/drug_consumption.data
+<br>Описание датасета : https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29
 > Решение: [task3.py](company_01/task3.py)
 ### Задание №4.
 > scipy, numpy
