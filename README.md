@@ -116,7 +116,8 @@
 2. Версия Python — 3.7+.
 3. Реализация сетевого протокола может быть на aiohttp, tornado или fastAPI.
 4. Репозиторий с исходниками должен быть доступен на GitHub или GitLab.
-
+> Решение: [flashlight.py](company_02/flashlight.py)   
+> Unit-tests: [tests.py](company_02/tests.py)
 
   ### Задание №2. Проектирование БД.
 > SQL  
