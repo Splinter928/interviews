@@ -24,7 +24,7 @@
 |     3	      |17.04.2020	|       NaN       |
 |     3	      |18.04.2020	|       NaN       |
 
-> Решение: [task1.py](company_01/task1.py)
+> Решение: [task1.md](company_01/task1.md)
 ### Задание №2 
 > numpy, pandas
 
