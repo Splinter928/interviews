@@ -53,3 +53,5 @@ def count_calls(func):
     wrapper.calls = 0
     return wrapper
  ```
+## SQL:
+Различные задачи на выборки из 2-3 таблиц с использование JOIN, агрегирующих функций и т.д.
