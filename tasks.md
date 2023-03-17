@@ -32,7 +32,7 @@ def add10(z: list) -> list:
   z.append(10)
   return z
 a = add10(a[:])
-print(len(a), id(b) == id(a))  # 6  
+print(len(a), id(b) == id(a))  # 6 False  
 ```
 10. Написать функцию, которая выведет сумму чисел последнего вложенного массива. Степень вложенности может изменяться
 ```python
