@@ -13,6 +13,43 @@
 •	1  
 •	3 5  
 •	7 9 11  и т.д.  
-8. Придумать все возможный юнит-тесты для задачи бинаного поиска числа в массиве.
+8. Придумать все возможный юнит-тесты для задачи бинарного поиска числа в массиве.
+9. Определить что выведет программа на каждом шаге и объяснить:
+```python
+a = [1, 2, 3, 4]
+b = a
+print(len(a), id(b) == id(a))  # 4 True
 
+def add10(z: list):
+  z.append(10)
+add10(a)
+print(len(a), id(b) == id(a))  # 5 True
 
+add10(a[:])
+print(len(a), id(b) == id(a))  # 5 True
+
+def add10(z: list) -> list:
+  z.append(10)
+  return z
+a = add10(a[:])
+print(len(a), id(b) == id(a))  # 6  
+```
+10. Написать функцию, которая выведет сумму чисел последнего вложенного массива. Степень вложенности может изменяться
+```python
+arr = [1, [2, [3, [3, 5, 6]]]]
+
+from typing import List
+def rsum(arr: List[int]) -> int:
+    if all(isinstance(k, int) for k in arr):
+        return sum(arr)
+    return rsum(arr[-1])
+```
+11. Для предыдущей задачи написать декоратор, который посчитает количество вызовов функции *rsum* во время выполнения программы.
+```python
+def count_calls(func):
+    def wrapper(*args, **kwargs):
+        wrapper.calls += 1
+        return func(*args, **kwargs)
+    wrapper.calls = 0
+    return wrapper
+ ```
